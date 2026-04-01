@@ -1,0 +1,119 @@
+﻿{
+    "sections":  [
+                     {
+                         "id":  "books",
+                         "label":  "Books / Book Chapters",
+                         "entries":  [
+                                         {
+                                             "id":  "pub-1771405341681-555803",
+                                             "text":  "\u003cb\u003eOvi, P. R.\u003c/b\u003e, Dey, E., Roy, N., Gangopadhyay, A., \u0026 Erbacher, R. F. (2022, June). Towards developing a data security aware federated training framework in multi-modal contested environments. In Artificial intelligence and machine learning for multi-domain operations applications IV (Vol. 12113, pp. 189-198). SPIE. https://doi.org/10.1117/12.2618904",
+                                             "year":  "2022",
+                                             "visible":  true
+                                         },
+                                         {
+                                             "id":  "pub-1771405362814-426730",
+                                             "text":  "\u003cb\u003eOvi, P. R.\u003c/b\u003e (2024). A Robust Federated Learning Against Cyber Intrusions to Ensure Data Confidentiality and Model Integrity (Doctoral dissertation, University of Maryland, Baltimore County). https://www.proquest.com/openview/a48476ec1fbe0314a01c9815c9f00da7/1?pq-origsite=gscholar\u0026cbl=18750\u0026diss=y",
+                                             "year":  "2024",
+                                             "visible":  true
+                                         }
+                                     ],
+                         "summary":  "",
+                         "visible":  true,
+                         "groupByYear":  false
+                     },
+                     {
+                         "id":  "journals",
+                         "label":  "Journals",
+                         "entries":  [
+                                         {
+                                             "id":  "pub-1771405695186-590276",
+                                             "text":  "\u003cb\u003eOvi, P. R.\u003c/b\u003e (2024). A Robust Federated Learning Against Cyber Intrusions to Ensure Data Confidentiality and Model Integrity (Doctoral dissertation, University of Maryland, Baltimore County). https://www.proquest.com/openview/a48476ec1fbe0314a01c9815c9f00da7/1?pq-origsite=gscholar\u0026cbl=18750\u0026diss=y",
+                                             "year":  "2025",
+                                             "visible":  true
+                                         }
+                                     ],
+                         "summary":  "",
+                         "visible":  true,
+                         "groupByYear":  false
+                     },
+                     {
+                         "id":  "conferences",
+                         "label":  "Conferences",
+                         "entries":  [
+                                         {
+                                             "id":  "pub-1771405730492-934039",
+                                             "text":  "\u003cb\u003eOvi, P. R.\u003c/b\u003e, Dey, E., Roy, N., \u0026 Gangopadhyay, A. (2023). Mixed quantization enabled federated learning to tackle gradient inversion attacks. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition (pp. 5046-5054). https://openaccess.thecvf.com/content/CVPR2023W/FedVision/html/Ovi_Mixed_Quantization_Enabled_Federated_Learning_To_Tackle_Gradient_Inversion_Attacks_CVPRW_2023_paper.html",
+                                             "year":  "2023",
+                                             "visible":  true
+                                         },
+                                         {
+                                             "id":  "pub-1771405761284-432437",
+                                             "text":  "\u003cb\u003eOvi, P. R.\u003c/b\u003e, \u0026 Gangopadhyay, A. (2023, March). A comprehensive study of gradient inversion attacks in federated learning and baseline defense strategies. In 2023 57th Annual Conference on Information Sciences and Systems (CISS) (pp. 1-6). IEEE. 10.1109/CISS56502.2023.10089719",
+                                             "year":  "2023",
+                                             "visible":  true
+                                         },
+                                         {
+                                             "id":  "pub-1771405795883-465205",
+                                             "text":  "\u003cb\u003eOvi, P. R.\u003c/b\u003e, Dey, E., Roy, N., Gangopadhyay, A., \u0026 Erbacher, R. F. (2022, June). Towards developing a data security aware federated training framework in multi-modal contested environments. In Artificial intelligence and machine learning for multi-domain operations applications IV (Vol. 12113, pp. 189-198). SPIE. https://doi.org/10.1117/12.2618904",
+                                             "year":  "2022",
+                                             "visible":  true
+                                         },
+                                         {
+                                             "id":  "pub-1771405817227-515857",
+                                             "text":  "\u003cb\u003eOvi, P. R.\u003c/b\u003e, Dey, E., Roy, N., \u0026 Gangopadhyay, A. (2021, August). Aris: A real time edge computed accident risk inference system. In 2021 IEEE International Conference on Smart Computing (SMARTCOMP) (pp. 47-54). IEEE. 10.1109/SMARTCOMP52413.2021.00027",
+                                             "year":  "2021",
+                                             "visible":  true
+                                         },
+                                         {
+                                             "id":  "pub-1771405841426-106136",
+                                             "text":  "\u003cb\u003eOvi, P. R.\u003c/b\u003e, Gangopadhyay, A., Erbacher, R. F., \u0026 Busart, C. (2023, June). Confident federated learning to tackle label flipped data poisoning attacks. In Artificial Intelligence and Machine Learning for Multi-Domain Operations Applications V (Vol. 12538, pp. 263-272). SPIE. https://doi.org/10.1117/12.2663911",
+                                             "year":  "2023",
+                                             "visible":  true
+                                         },
+                                         {
+                                             "id":  "pub-1771405872178-645277",
+                                             "text":  "\u003cb\u003eOvi, P. R.\u003c/b\u003e, Gangopadhyay, A., Erbacher, R. F., \u0026 Busart, C. (2022, December). Secure federated training: Detecting compromised nodes and identifying the type of attacks. In 2022 21st IEEE International Conference on Machine Learning and Applications (ICMLA) (pp. 1115-1120). IEEE. 10.1109/ICMLA55696.2022.00183",
+                                             "year":  "2022",
+                                             "visible":  true
+                                         },
+                                         {
+                                             "id":  "pub-1771405896924-521597",
+                                             "text":  "Ahmed, M., Khan, N., \u003cb\u003eOvi, P. R.\u003c/b\u003e, Roy, N., Purushotham, S., Gangopadhyay, A., \u0026 You, S. (2022, May). Gadan: Generative adversarial domain adaptation network for debris detection using drone. In 2022 18th International Conference on Distributed Computing in Sensor Systems (DCOSS) (pp. 277-282). IEEE. 10.1109/DCOSS54816.2022.00053",
+                                             "year":  "2022",
+                                             "visible":  true
+                                         },
+                                         {
+                                             "id":  "pub-1771405930776-68948",
+                                             "text":  "\u003cb\u003eOvi, P. R.\u003c/b\u003e, \u0026 Gangopadhyay, A. (2024, April). Gradient inversion attacks on acoustic signals: Revealing security risks in audio recognition systems. In ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (pp. 4835-4839). IEEE. 10.1109/ICASSP48485.2024.10445809",
+                                             "year":  "2024",
+                                             "visible":  true
+                                         },
+                                         {
+                                             "id":  "pub-1771405950542-985394",
+                                             "text":  "\u003cb\u003eOvi, P. R.\u003c/b\u003e, Dey, E., Roy, N., \u0026 Gangopadhyay, A. (2022). Mixed precision quantization to tackle gradient leakage attacks in federated learning. arXiv preprint arXiv:2210.13457. https://doi.org/10.48550/arXiv.2210.13457",
+                                             "year":  "2022",
+                                             "visible":  true
+                                         },
+                                         {
+                                             "id":  "pub-1771405971694-38150",
+                                             "text":  "Rashid, H. A., \u003cb\u003eOvi, P. R.\u003c/b\u003e, Busart, C., Gangopadhyay, A., \u0026 Mohsenin, T. (2022). Tinym2net: A flexible system algorithm co-designed multimodal learning framework for tiny devices. ArXiv, arXiv-2202. https://pmc.ncbi.nlm.nih.gov/articles/PMC8845504/",
+                                             "year":  "2022",
+                                             "visible":  true
+                                         }
+                                     ],
+                         "summary":  "",
+                         "visible":  true,
+                         "groupByYear":  false
+                     },
+                     {
+                         "id":  "posters",
+                         "label":  "Posters and Student Presentations",
+                         "entries":  [
+
+                                     ],
+                         "summary":  "",
+                         "visible":  false,
+                         "groupByYear":  false
+                     }
+                 ]
+}

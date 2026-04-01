@@ -1,0 +1,61 @@
+﻿{
+    "header":  {
+                   "visible":  true,
+                   "logoUrl":  "/uploads/contact/1771412727477-838265307.png",
+                   "title":  "Privacy Aware \u0026 Intelligent System Modeling (PRISM) Lab",
+                   "subtitle":  "University of North Texas"
+               },
+    "members":  {
+                    "visible":  true,
+                    "label":  "Lab Members",
+                    "people":  [
+                                   {
+                                       "id":  "mem-1771409487874-876952",
+                                       "name":  "Dr. Pretom Roy Ovi",
+                                       "email":  "Pretomroy.Ovi@unt.edu",
+                                       "phone":  "4432489841",
+                                       "title":  "Director",
+                                       "visible":  true,
+                                       "imageUrl":  "/uploads/contact/1771412740734-860782148.jpg"
+                                   },
+                                   {
+                                       "id":  "mem-1771409714064-417739",
+                                       "name":  "Md Al Samiul Amin Rishat",
+                                       "email":  "MdAlSamiulAminRishat@my.unt.edu",
+                                       "phone":  "9402227355",
+                                       "title":  "Group Leader",
+                                       "visible":  true,
+                                       "imageUrl":  "/uploads/contact/1771412747814-459454357.JPG"
+                                   },
+                                   {
+                                       "id":  "mem-1771409799555-789400",
+                                       "name":  "Tasmiah Tahsin Mayeesha",
+                                       "email":  "TasmiahTahsinMayeesha@my.unt.edu",
+                                       "phone":  "9405948192",
+                                       "title":  "Group Co-ordinator",
+                                       "visible":  true,
+                                       "imageUrl":  "/uploads/contact/1771412759731-970652380.png"
+                                   }
+                               ]
+                },
+    "map":  {
+                "visible":  true,
+                "mapEmbedSrc":  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3336.4850449376977!2d-97.1526031!3d33.2537918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864db595faebd6e7%3A0x522282b77f411583!2sDiscovery%20Park!5e0!3m2!1sen!2sus!4v1771410061310!5m2!1sen!2sus",
+                "addressLines":  [
+                                     "Department of Information Science",
+                                     "Discovery Park, 3940 N. Elm St., Suite E235J",
+                                     "Denton, Texas 76207"
+                                 ],
+                "addressUrl":  "https://maps.app.goo.gl/ptZvvpRBAnCvxFrN6",
+                "mapLinks":  [
+
+                             ]
+            },
+    "labDetails":  {
+                       "visible":  true,
+                       "room":  "Discovery Park E235J",
+                       "department":  "Department of Information Science",
+                       "email":  "Pretomroy.Ovi@unt.edu",
+                       "phone":  "4432489841"
+                   }
+}
