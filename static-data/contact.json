@@ -1,4 +1,5 @@
 ﻿{
+    "sidebarImageUrl": "/uploads/sidebar/profile.jpg",
     "header":  {
                    "visible":  true,
                    "logoUrl":  "/uploads/contact/1771412727477-838265307.png",
