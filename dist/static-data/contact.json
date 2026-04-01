@@ -1,11 +1,11 @@
 ﻿{
-    "sidebarImageUrl": "/uploads/sidebar/profile.jpg",
     "header":  {
                    "visible":  true,
                    "logoUrl":  "/uploads/contact/1771412727477-838265307.png",
                    "title":  "Privacy Aware \u0026 Intelligent System Modeling (PRISM) Lab",
                    "subtitle":  "University of North Texas"
                },
+    "sidebarImageUrl": "/uploads/sidebar/profile.jpg",
     "members":  {
                     "visible":  true,
                     "label":  "Lab Members",

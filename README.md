@@ -127,8 +127,6 @@ This method publishes the built `dist` output to a dedicated branch called `gh-p
 npm run build
 ```
 
-Note: The build process automatically syncs the `uploads/` folder to `public/uploads/` before building, ensuring all images are included in the deployment.
-
 ### 8.2 Push `dist` to `gh-pages`
 
 ```powershell
@@ -203,14 +201,6 @@ Fix:
 1. Reinstall Node.js LTS
 2. Restart terminal
 
-### Problem: Images/logos not loading on GitHub Pages
-
-Fix: The project includes automatic path normalization for GitHub Pages subfolder deployment.
-
-1. All asset paths in JSON data are automatically prefixed with `/prism-lab/` at runtime
-2. The API data loading uses absolute paths compatible with GitHub Pages
-3. If images still don't load, hard refresh browser (`Ctrl + F5`) and wait for cache to clear
-
 ### Problem: Route not found on refresh
 
 This project is already configured for static hosting (relative paths and GitHub Pages-safe routing), so rebuild and redeploy.
@@ -221,8 +211,6 @@ This project is already configured for static hosting (relative paths and GitHub
 - Uploads are in `uploads/`
 - Build output is generated into `dist/`
 - Admin CRUD features require backend APIs and are not persistent on GitHub Pages
-- **GitHub Pages Compatibility**: Asset paths in JSON data are automatically normalized at runtime to include the `/prism-lab/` prefix for subfolder deployment
-- **Path Normalization**: The `src/models/api.js` file contains `normalizeMediaUrls()` function that transforms all `/` paths to `/prism-lab/` paths for GitHub Pages compatibility
 
 ## 13) Quick Command Cheat Sheet
 

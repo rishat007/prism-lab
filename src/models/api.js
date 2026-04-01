@@ -1,7 +1,7 @@
 /**
  * Static API Model - reads frozen JSON payloads from public/static-data
  */
-const DATA_BASE = '/prism-lab/static-data';
+const DATA_BASE = './static-data';
 
 const ENDPOINT_TO_FILE = {
   '/home': 'home.json',
@@ -27,11 +27,7 @@ function normalizeMediaUrls(value) {
     }
     return next;
   }
-  if (typeof value === 'string' && value.startsWith('/')) {
-    // Skip API endpoints and already normalized paths
-    if (value.startsWith('/api/') || value.startsWith('/prism-lab/')) {
-      return value;
-    }
+  if (typeof value === 'string' && value.startsWith('/uploads/')) {
     return `/prism-lab${value}`;
   }
   return value;
