@@ -23,7 +23,7 @@ npm --version
 ## 2) Create a New GitHub Repository
 
 1. Go to https://github.com/new
-2. Repository name example: `prism-lab-static-website`
+2. Repository name: `prism-lab`
 3. Choose Public (or Private if required)
 4. Do not add README/.gitignore/license from GitHub (we already have files)
 5. Click Create repository
@@ -31,7 +31,7 @@ npm --version
 After creating, GitHub will show a URL like:
 
 ```text
-https://github.com/<your-username>/prism-lab-static-website.git
+https://github.com/rishat007/prism-lab.git
 ```
 
 ## 3) Upload Existing Local Project to GitHub (First Time)
@@ -45,7 +45,7 @@ git init
 git add .
 git commit -m "Initial commit: PRISM Lab static website"
 git branch -M main
-git remote add origin https://github.com/<your-username>/prism-lab-static-website.git
+git remote add origin https://github.com/rishat007/prism-lab.git
 git push -u origin main
 ```
 
@@ -90,8 +90,8 @@ git pull origin main
 ## 5) Clone Repository on Another Computer
 
 ```powershell
-git clone https://github.com/<your-username>/prism-lab-static-website.git
-cd prism-lab-static-website
+git clone https://github.com/rishat007/prism-lab.git
+cd prism-lab
 npm install
 npm run dev
 ```
@@ -150,7 +150,7 @@ If `gh-pages` does not exist, GitHub creates it automatically on first push.
 After 1-5 minutes, your site will be available at:
 
 ```text
-https://<your-username>.github.io/prism-lab-static-website/
+https://rishat007.github.io/prism-lab/
 ```
 
 How to verify deployment status:
@@ -220,7 +220,7 @@ git init
 git add .
 git commit -m "Initial commit"
 git branch -M main
-git remote add origin https://github.com/<your-username>/prism-lab-static-website.git
+git remote add origin https://github.com/rishat007/prism-lab.git
 git push -u origin main
 
 # create branch
@@ -240,4 +240,3 @@ npm install
 npm run build
 git subtree push --prefix dist origin gh-pages
 ```
-=======
