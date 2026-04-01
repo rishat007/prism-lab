@@ -203,6 +203,14 @@ Fix:
 1. Reinstall Node.js LTS
 2. Restart terminal
 
+### Problem: Only home page works, other pages show 404 on GitHub Pages
+
+Fix: The project includes SPA (Single Page Application) routing support for GitHub Pages.
+
+1. A `404.html` file redirects all routes to `index.html`
+2. The `index.html` includes a redirect script that handles the routing
+3. This allows direct navigation to any URL (like `/prism-lab/research`) to work correctly
+
 ### Problem: Images/logos not loading on GitHub Pages
 
 Fix: The project includes automatic path normalization for GitHub Pages subfolder deployment.
@@ -223,6 +231,7 @@ This project is already configured for static hosting (relative paths and GitHub
 - Admin CRUD features require backend APIs and are not persistent on GitHub Pages
 - **GitHub Pages Compatibility**: Asset paths in JSON data are automatically normalized at runtime to include the `/prism-lab/` prefix for subfolder deployment
 - **Path Normalization**: The `src/models/api.js` file contains `normalizeMediaUrls()` function that transforms all `/` paths to `/prism-lab/` paths for GitHub Pages compatibility
+- **SPA Routing**: Includes `404.html` and redirect script in `index.html` for client-side routing support on GitHub Pages
 
 ## 13) Quick Command Cheat Sheet
 
