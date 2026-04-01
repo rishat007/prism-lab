@@ -28,7 +28,7 @@ function normalizeMediaUrls(value) {
     return next;
   }
   if (typeof value === 'string' && value.startsWith('/uploads/')) {
-    return `.${value}`;
+    return `/prism-lab${value}`;
   }
   return value;
 }
