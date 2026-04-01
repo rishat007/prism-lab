@@ -1,0 +1,121 @@
+/* PRISM Lab - Color palette (green: rgb(0 83 38)) */
+:root {
+  --header-bg: #333333;
+  --unt-green: rgb(0 83 38);
+  --unt-green-hero: rgb(0 83 38);
+  --unt-dark-green: rgb(0 65 28);
+  --white: #ffffff;
+  --black: #000000;
+  --dark-text: #212529;
+  --footer-bg: #2e2e2e;
+  --footer-text-muted: #cccccc;
+  --font-sans: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  color: var(--black);
+  background: var(--white);
+  -webkit-font-smoothing: antialiased;
+}
+
+.api-health-banner {
+  padding: 0.75rem 1rem;
+  background: #d32f2f;
+  color: #fff;
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+.api-health-banner code {
+  background: rgba(0,0,0,0.2);
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.8125rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Content area links: vibrant green */
+.app-main a:not(.sidebar-link):not(.nav-link):not(.navbar-brand):not(.dropdown-link) {
+  color: var(--unt-green);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.app-main a:not(.sidebar-link):not(.nav-link):not(.navbar-brand):not(.dropdown-link):hover {
+  color: var(--unt-dark-green);
+}
+
+/* App layout: top bar, then sidebar + main content */
+.app-root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-layout {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+}
+
+.app-main {
+  flex: 1;
+  min-width: 0;
+  background: var(--white);
+  color: var(--black);
+}
+
+.breadcrumb {
+  padding: 0.5rem 1.5rem 0.5rem 0.5rem;
+  font-size: 0.9375rem;
+  color: #ffffff;
+  background: #000000;
+  border-bottom: 1px solid #333333;
+}
+
+.breadcrumb a {
+  color: #ffffff;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.breadcrumb a:hover {
+  color: #ffffff;
+  opacity: 0.9;
+}
+
+.breadcrumb-sep {
+  margin: 0 0.35rem;
+  color: #ffffff;
+}
+
+.app-back-to-top {
+  position: fixed;
+  right: 1.15rem;
+  bottom: 1.15rem;
+  z-index: 1200;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 7px;
+  background: var(--unt-green);
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  padding: 0.45rem 0.72rem;
+  cursor: pointer;
+  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.2);
+}
+
+.app-back-to-top:hover {
+  background: var(--unt-dark-green);
+}

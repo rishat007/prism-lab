@@ -1,0 +1,242 @@
+/* Sidebar: white bg, LINKS vibrant green #629E30, active = green bg + white + left bar; profile at bottom */
+.sidebar {
+  width: 240px;
+  min-width: 240px;
+  padding: 1.5rem 0 1.5rem 1rem;
+  background: #ffffff;
+  border-right: 1px solid #e8e8e8;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-header {
+  margin: 0 0 1rem 0;
+  padding-bottom: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--dark-text, #212529);
+  border-bottom: 1px solid #d0d0d0;
+  text-transform: uppercase;
+}
+
+.sidebar-nav {
+  display: block;
+}
+
+.sidebar-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+}
+
+.sidebar-item {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-item--section > .sidebar-link {
+  font-weight: 600;
+}
+
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0.75rem;
+  margin-left: -0.75rem;
+  padding-left: 0.75rem;
+  font-size: 0.9375rem;
+  color: var(--dark-text, #212529);
+  text-decoration: none;
+  border-left: 3px solid transparent;
+  transition: color 0.15s ease, background 0.15s ease, border-color 0.15s ease;
+}
+
+.sidebar-link--sub {
+  font-size: 0.875rem;
+  padding-left: 1.5rem;
+}
+
+.sidebar-link--sub.active {
+  background: #eaf4ea;
+  color: var(--unt-green);
+}
+
+.sidebar-link:hover {
+  color: var(--unt-green);
+}
+
+.sidebar-link.active {
+  background: var(--unt-green);
+  color: #ffffff;
+  border-left-color: var(--unt-green);
+  text-decoration: none;
+}
+
+.sidebar-chevron {
+  font-size: 0.5rem;
+  color: #666666;
+  opacity: 0.9;
+  transition: transform 0.2s ease;
+}
+
+.sidebar-dropdown-trigger.open .sidebar-chevron {
+  transform: rotate(180deg);
+}
+
+.sidebar-link.active .sidebar-chevron {
+  color: #ffffff;
+}
+
+.sidebar-item--dropdown {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.sidebar-dropdown-trigger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-width: 0;
+  margin-left: -0.75rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.75rem;
+  box-sizing: border-box;
+}
+
+.sidebar-dropdown-trigger .sidebar-link {
+  flex: 1;
+  margin: 0;
+  margin-left: 0;
+  padding-left: 0;
+  padding-right: 0.25rem;
+}
+
+.sidebar-dropdown-toggle {
+  background: none;
+  border: none;
+  padding: 0.25rem;
+  margin: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+  flex-shrink: 0;
+}
+
+.sidebar-dropdown-toggle:hover .sidebar-chevron {
+  color: var(--unt-green);
+}
+
+.sidebar-sublist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.25s ease;
+}
+
+.sidebar-sublist.open {
+  max-height: 200px;
+}
+
+.sidebar-profile {
+  /* Place profile block directly after nav (no huge empty gap). */
+  margin-top: 1rem;
+  margin-left: -1rem;
+  padding-top: 0.6rem;
+  padding-left: 0.5rem;
+  border-top: 1px solid #e8e8e8;
+}
+
+.sidebar-profile-image {
+  width: 100%;
+  aspect-ratio: .8;
+  max-width: 220px;
+  margin: 0 0 0.8rem 0;
+  border-radius: 8px;
+  display: block;
+  object-fit: cover;
+}
+
+.sidebar-profile-image--placeholder {
+  background: var(--unt-green);
+}
+
+.sidebar-profile-text {
+  font-size: 0.8125rem;
+  color: #000000;
+  margin: 0 0 0.5rem;
+  line-height: 1.4;
+}
+
+.sidebar-profile-links a,
+.sidebar-profile-email a {
+  color: var(--unt-green);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.sidebar-profile-links a:hover,
+.sidebar-profile-email a:hover {
+  color: var(--unt-dark-green);
+}
+
+.sidebar-profile-links,
+.sidebar-profile-email {
+  font-size: 0.8125rem;
+  color: #000000;
+  margin: 0 0 0.25rem;
+  line-height: 1.4;
+}
+
+.sidebar-profile-name {
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-bottom: 0.4rem;
+}
+
+.sidebar-profile-title,
+.sidebar-profile-university {
+  font-size: 0.75rem;
+  color: #555;
+  margin-bottom: 0.3rem;
+}
+
+.sidebar-profile-department {
+  font-size: 0.75rem;
+  color: #555;
+  margin-bottom: 0.3rem;
+}
+
+.sidebar-profile-pronouns {
+  font-size: 0.75rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+  font-style: italic;
+}
+
+.sidebar-profile-research {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  margin-top: 0.5rem;
+}
+
+.sidebar-profile-research-area {
+  display: inline-block;
+  font-size: 0.6875rem;
+  padding: 0.2rem 0.4rem;
+  background: #f0f4f0;
+  color: var(--unt-green);
+  border-radius: 4px;
+  font-weight: 500;
+}

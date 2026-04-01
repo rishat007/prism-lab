@@ -1,0 +1,185 @@
+/* ============================================================
+   Students Page - Sectioned layout with photo cards
+   ============================================================ */
+
+/* ---------- Section headings ---------- */
+.students-section {
+  margin-bottom: 2.5rem;
+}
+
+.students-section-heading {
+  font-size: 1.55rem;
+  font-weight: 700;
+  color: #006747;
+  border-bottom: 3px solid #006747;
+  padding-bottom: 0.45rem;
+  margin-bottom: 1.5rem;
+}
+
+/* ---------- Student card ---------- */
+.student-card {
+  display: flex;
+  gap: 1.75rem;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.2s ease;
+}
+
+.student-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* ---------- Photo column ---------- */
+.student-photo-col {
+  flex-shrink: 0;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.student-photo {
+  width: 200px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid #e0e0e0;
+  background: #f5f5f5;
+}
+
+.student-photo-placeholder {
+  width: 200px;
+  height: 240px;
+  border-radius: 8px;
+  border: 2px dashed #ccc;
+  background: #f9f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #aaa;
+  font-size: 0.85rem;
+}
+
+.student-social-links {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.student-social-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.8rem;
+  color: #006747;
+  text-decoration: none;
+  padding: 0.2rem 0.5rem;
+  border: 1px solid #006747;
+  border-radius: 4px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.student-social-links a:hover {
+  background: #006747;
+  color: #fff;
+}
+
+/* ---------- Details column ---------- */
+.student-details {
+  flex: 1;
+  min-width: 0;
+}
+
+.student-name {
+  font-size: 1.45rem;
+  font-weight: 700;
+  color: #222;
+  margin: 0 0 0.15rem;
+}
+
+.student-title {
+  font-size: 1.15rem;
+  color: #555;
+  margin: 0 0 0.1rem;
+}
+
+.student-department {
+  font-size: 1.05rem;
+  color: #777;
+  margin: 0 0 0.85rem;
+}
+
+.student-info-block {
+  margin-bottom: 0.75rem;
+}
+
+.student-info-label {
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: #006747;
+  margin-bottom: 0.2rem;
+}
+
+.student-info-block ul {
+  margin: 0.15rem 0 0 1.25rem;
+  padding: 0;
+}
+
+.student-info-block li {
+  font-size: 0.9rem;
+  color: #444;
+  line-height: 1.5;
+}
+
+.student-bio {
+  font-size: 0.9rem;
+  color: #444;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.student-email {
+  font-size: 0.9rem;
+  color: #006747;
+  text-decoration: none;
+}
+
+.student-email:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Empty section ---------- */
+.students-empty {
+  color: #999;
+  font-style: italic;
+  padding: 1rem 0;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 700px) {
+  .student-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .student-photo-col {
+    width: auto;
+  }
+
+  .student-photo,
+  .student-photo-placeholder {
+    width: 160px;
+    height: 200px;
+  }
+
+  .student-info-block ul {
+    text-align: left;
+  }
+}

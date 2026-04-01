@@ -1,0 +1,56 @@
+﻿{
+    "sections":  [
+                     {
+                         "id":  "graduate",
+                         "label":  "Graduate Students",
+                         "visible":  true,
+                         "students":  [
+                                          {
+                                              "id":  "stu-1771401560728-431812",
+                                              "bio":  "Md Al Samiul Amin Rishat is currently pur- suing a Ph.D. in the Department of Information Science with a concentration in Data Science at the University of North Texas. He holds a Bachelor of Science degree from the American International University-Bangladesh (AIUB). He has professional experience as a worker at Samsung R\u0026D Institute, where he contributed to various innovative projects. His research interests include Blockchain, Cyber- security, EEG, Federated Learning/Unlearning, IoT, and Privacy in AI-integrated systems. Rishat has published multiple peer-reviewed articles in reputable venues such as ACM, Taylor \u0026 Francis, MDPI, and Q1-ranked journals. His contributions span across interdisciplinary areas, including blockchain applications in Shariah- compliant banking systems and privacy-preserving frameworks in AI and IoT. He actively collaborates with researchers from the U.S., South Korea, and Bangladesh, contributing to both conference proceedings and journal publications that advance the development of secure and intelligent systems.",
+                                              "name":  "Rishat, Md Al Samiul Amin",
+                                              "email":  "MdAlSamiulAminRishat@my.unt.edu",
+                                              "title":  "Ph.D Student",
+                                              "imageUrl":  "/uploads/students/1771401632822-644520634.jpg",
+                                              "education":  [
+                                                                "Bsc in Computer Science and Engineering - American International University Bangladesh (AIUB) - 2021"
+                                                            ],
+                                              "department":  "Information Science Concentration in Data Science",
+                                              "scholarUrl":  "https://scholar.google.com/citations?user=FEzG2dMAAAAJ\u0026hl=en",
+                                              "linkedinUrl":  "https://www.linkedin.com/in/fasvusdnfg/",
+                                              "researchInterests":  [
+                                                                        "Blockchain",
+                                                                        "Security \u0026 Privacy",
+                                                                        "EEG",
+                                                                        "Privacy-Preserving Machine Learning",
+                                                                        "Unlearning"
+                                                                    ]
+                                          }
+                                      ]
+                     },
+                     {
+                         "id":  "undergraduate",
+                         "label":  "Undergraduate Students",
+                         "visible":  false,
+                         "students":  [
+
+                                      ]
+                     },
+                     {
+                         "id":  "highschool",
+                         "label":  "High School Students",
+                         "visible":  false,
+                         "students":  [
+
+                                      ]
+                     },
+                     {
+                         "id":  "alumni",
+                         "label":  "Alumni",
+                         "visible":  false,
+                         "students":  [
+
+                                      ]
+                     }
+                 ]
+}

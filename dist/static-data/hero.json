@@ -1,0 +1,16 @@
+﻿{
+    "slides":  [
+                   {
+                       "id":  1,
+                       "imageUrl":  "/uploads/hero/1769933398884-124761663.png",
+                       "caption":  "test",
+                       "order":  1
+                   },
+                   {
+                       "id":  2,
+                       "imageUrl":  "/uploads/hero/1769937645747-70217689.jpg",
+                       "caption":  "test",
+                       "order":  2
+                   }
+               ]
+}

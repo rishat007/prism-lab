@@ -1,0 +1,124 @@
+﻿{
+    "nav":  {
+                "navbar":  [
+                               {
+                                   "id":  13,
+                                   "parent_id":  null,
+                                   "label":  "Home",
+                                   "path":  "/",
+                                   "position":  0,
+                                   "is_visible":  true,
+                                   "children":  [
+
+                                                ]
+                               },
+                               {
+                                   "id":  14,
+                                   "parent_id":  null,
+                                   "label":  "PRISM Lab",
+                                   "path":  "/prism-lab",
+                                   "position":  1,
+                                   "is_visible":  true,
+                                   "children":  [
+
+                                                ]
+                               },
+                               {
+                                   "id":  17,
+                                   "parent_id":  null,
+                                   "label":  "Publications",
+                                   "path":  "/publications",
+                                   "position":  4,
+                                   "is_visible":  true,
+                                   "children":  [
+
+                                                ]
+                               },
+                               {
+                                   "id":  19,
+                                   "parent_id":  null,
+                                   "label":  "Students",
+                                   "path":  "/students",
+                                   "position":  6,
+                                   "is_visible":  true,
+                                   "children":  [
+
+                                                ]
+                               },
+                               {
+                                   "id":  20,
+                                   "parent_id":  null,
+                                   "label":  "Contact",
+                                   "path":  "/contact",
+                                   "position":  7,
+                                   "is_visible":  true,
+                                   "children":  [
+
+                                                ]
+                               }
+                           ],
+                "sidebar":  [
+                                {
+                                    "id":  1,
+                                    "parent_id":  null,
+                                    "label":  "Home",
+                                    "path":  "/",
+                                    "position":  0,
+                                    "is_visible":  true,
+                                    "children":  [
+
+                                                 ]
+                                },
+                                {
+                                    "id":  2,
+                                    "parent_id":  null,
+                                    "label":  "PRISM Lab",
+                                    "path":  "/prism-lab",
+                                    "position":  1,
+                                    "is_visible":  true,
+                                    "children":  [
+
+                                                 ]
+                                },
+                                {
+                                    "id":  5,
+                                    "parent_id":  null,
+                                    "label":  "Publications",
+                                    "path":  "/publications",
+                                    "position":  4,
+                                    "is_visible":  true,
+                                    "children":  [
+
+                                                 ]
+                                },
+                                {
+                                    "id":  7,
+                                    "parent_id":  null,
+                                    "label":  "Students",
+                                    "path":  "/students",
+                                    "position":  6,
+                                    "is_visible":  true,
+                                    "children":  [
+
+                                                 ]
+                                },
+                                {
+                                    "id":  8,
+                                    "parent_id":  null,
+                                    "label":  "Contact",
+                                    "path":  "/contact",
+                                    "position":  7,
+                                    "is_visible":  true,
+                                    "children":  [
+
+                                                 ]
+                                }
+                            ]
+            },
+    "settings":  {
+                     "brand_name":  "Dr. Pretom Roy Ovi",
+                     "footer_text":  "© PRISM Lab, University of North Texas",
+                     "primary_color":  "#629E30",
+                     "site_name":  "PRISM Lab"
+                 }
+}

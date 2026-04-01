@@ -1,0 +1,137 @@
+/* =============================================================
+   Publications Page – matches reference design
+   Large bold section titles, numbered ordered lists, green links,
+   optional year sub-headings, responsive.
+   ============================================================= */
+
+.publications-page {
+  color: #000;
+}
+
+/* Let publications content fill the full available width */
+.publications-page .page-banner {
+  max-width: none;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.publications-content {
+  max-width: none;
+  width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  box-sizing: border-box;
+}
+
+/* ── Section ── */
+.pub-section {
+  margin-bottom: 2.5rem;
+}
+
+.pub-section-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #222;
+  margin: 0 0 0.75rem;
+  line-height: 1.3;
+}
+
+.pub-section-summary {
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: #333;
+  margin-left: 0.25rem;
+}
+
+/* ── Year sub-heading ── */
+.pub-year-group {
+  margin-bottom: 1rem;
+}
+
+.pub-year-heading {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #000;
+  margin: 1.25rem 0 0.5rem;
+}
+
+/* ── Numbered list ── */
+.pub-list {
+  list-style: decimal;
+  margin: 0 0 0 1.75rem;
+  padding: 0;
+}
+
+.pub-entry {
+  margin-bottom: 0.9rem;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: #000;
+  padding-left: 0.25rem;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+/* ── Rich-text inline styles ── */
+.pub-entry b,
+.pub-entry strong {
+  font-weight: 700;
+}
+
+.pub-entry i,
+.pub-entry em {
+  font-style: italic;
+}
+
+.pub-entry u {
+  text-decoration: underline;
+}
+
+/* ── Links (green, underlined like reference) ── */
+.pub-entry a {
+  color: var(--unt-green, #006747);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.pub-entry a:hover {
+  color: var(--unt-dark-green, #004d35);
+}
+
+/* ── Empty state ── */
+.pub-empty {
+  color: #999;
+  font-style: italic;
+  padding: 0.5rem 0;
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .publications-content,
+  .publications-page .page-banner {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .pub-section-title {
+    font-size: 1.5rem;
+  }
+
+  .pub-section-summary {
+    font-size: 1rem;
+  }
+
+  .pub-year-heading {
+    font-size: 1.1rem;
+  }
+
+  .pub-entry {
+    font-size: 0.95rem;
+  }
+
+  .pub-list {
+    margin-left: 1.25rem;
+  }
+}

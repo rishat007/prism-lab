@@ -1,0 +1,56 @@
+/* Home hero - full viewport width, above sidebar */
+.home-hero-section {
+  position: relative;
+  width: 100%;
+  min-height: 55vh;
+  max-height: 70vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-shrink: 0;
+}
+
+.home-hero-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.3) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.home-hero-section:not([style*="background-image"]) {
+  background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%);
+}
+
+.home-hero-overlay {
+  position: relative;
+  width: 100%;
+  background: var(--unt-green);
+  color: #ffffff;
+  padding: 1.5rem 1.5rem;
+  text-align: center;
+  z-index: 1;
+}
+
+.home-hero-name {
+  margin: 0;
+  font-size: clamp(1.25rem, 1.8vw, 1.65rem);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: 1.25;
+}
+
+.home-hero-sep {
+  margin: 0 0.5rem;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+@media (max-width: 520px) {
+  .home-hero-name {
+    font-size: 1rem;
+  }
+}

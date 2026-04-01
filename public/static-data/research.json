@@ -1,0 +1,39 @@
+﻿{
+    "areas":  [
+                  {
+                      "id":  "1",
+                      "title":  "Privacy-Preserving Systems",
+                      "description":  "Research on techniques to protect user privacy in intelligent systems."
+                  },
+                  {
+                      "id":  "2",
+                      "title":  "Intelligent System Modeling",
+                      "description":  "Modeling and optimization of complex intelligent systems."
+                  },
+                  {
+                      "id":  "3",
+                      "title":  "Trustworthy AI",
+                      "description":  "Building transparent and accountable AI systems."
+                  }
+              ],
+    "projects":  [
+                     {
+                         "id":  "1",
+                         "title":  "Privacy-Aware Machine Learning",
+                         "description":  "Developing ML models that preserve user privacy.",
+                         "status":  "Active"
+                     },
+                     {
+                         "id":  "2",
+                         "title":  "Intelligent System Optimization",
+                         "description":  "Optimization frameworks for complex intelligent systems.",
+                         "status":  "Active"
+                     },
+                     {
+                         "id":  "3",
+                         "title":  "Explainable AI Systems",
+                         "description":  "Transparent and interpretable AI for decision support.",
+                         "status":  "Ongoing"
+                     }
+                 ]
+}

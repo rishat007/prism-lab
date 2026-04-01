@@ -1,0 +1,10 @@
+﻿{
+    "grants":  [
+                   {
+                       "id":  "1",
+                       "title":  "Sample Grant",
+                       "agency":  "Agency Name",
+                       "period":  "2024–2026"
+                   }
+               ]
+}
